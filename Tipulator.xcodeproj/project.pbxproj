@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A180AC291FE3CC250029CDB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A180AC281FE3CC250029CDB1 /* AppDelegate.swift */; };
+		A180AC2B1FE3CC250029CDB1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A180AC2A1FE3CC250029CDB1 /* ViewController.swift */; };
+		A180AC2E1FE3CC250029CDB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A180AC2C1FE3CC250029CDB1 /* Main.storyboard */; };
+		A180AC301FE3CC250029CDB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A180AC2F1FE3CC250029CDB1 /* Assets.xcassets */; };
+		A180AC331FE3CC250029CDB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A180AC311FE3CC250029CDB1 /* LaunchScreen.storyboard */; };
+		A180AC3E1FE3CC260029CDB1 /* TipulatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A180AC3D1FE3CC260029CDB1 /* TipulatorTests.swift */; };
+		A180AC491FE3CC260029CDB1 /* TipulatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A180AC481FE3CC260029CDB1 /* TipulatorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A180AC3A1FE3CC260029CDB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A180AC1D1FE3CC250029CDB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A180AC241FE3CC250029CDB1;
+			remoteInfo = Tipulator;
+		};
+		A180AC451FE3CC260029CDB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A180AC1D1FE3CC250029CDB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A180AC241FE3CC250029CDB1;
+			remoteInfo = Tipulator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A180AC251FE3CC250029CDB1 /* Tipulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tipulator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A180AC281FE3CC250029CDB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A180AC2A1FE3CC250029CDB1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A180AC2D1FE3CC250029CDB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A180AC2F1FE3CC250029CDB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A180AC321FE3CC250029CDB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A180AC341FE3CC250029CDB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A180AC391FE3CC260029CDB1 /* TipulatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipulatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A180AC3D1FE3CC260029CDB1 /* TipulatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipulatorTests.swift; sourceTree = "<group>"; };
+		A180AC3F1FE3CC260029CDB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A180AC441FE3CC260029CDB1 /* TipulatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipulatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A180AC481FE3CC260029CDB1 /* TipulatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipulatorUITests.swift; sourceTree = "<group>"; };
+		A180AC4A1FE3CC260029CDB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A180AC221FE3CC250029CDB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A180AC361FE3CC260029CDB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A180AC411FE3CC260029CDB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A180AC1C1FE3CC250029CDB1 = {
+			isa = PBXGroup;
+			children = (
+				A180AC271FE3CC250029CDB1 /* Tipulator */,
+				A180AC3C1FE3CC260029CDB1 /* TipulatorTests */,
+				A180AC471FE3CC260029CDB1 /* TipulatorUITests */,
+				A180AC261FE3CC250029CDB1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A180AC261FE3CC250029CDB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A180AC251FE3CC250029CDB1 /* Tipulator.app */,
+				A180AC391FE3CC260029CDB1 /* TipulatorTests.xctest */,
+				A180AC441FE3CC260029CDB1 /* TipulatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A180AC271FE3CC250029CDB1 /* Tipulator */ = {
+			isa = PBXGroup;
+			children = (
+				A180AC281FE3CC250029CDB1 /* AppDelegate.swift */,
+				A180AC2A1FE3CC250029CDB1 /* ViewController.swift */,
+				A180AC2C1FE3CC250029CDB1 /* Main.storyboard */,
+				A180AC2F1FE3CC250029CDB1 /* Assets.xcassets */,
+				A180AC311FE3CC250029CDB1 /* LaunchScreen.storyboard */,
+				A180AC341FE3CC250029CDB1 /* Info.plist */,
+			);
+			path = Tipulator;
+			sourceTree = "<group>";
+		};
+		A180AC3C1FE3CC260029CDB1 /* TipulatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				A180AC3D1FE3CC260029CDB1 /* TipulatorTests.swift */,
+				A180AC3F1FE3CC260029CDB1 /* Info.plist */,
+			);
+			path = TipulatorTests;
+			sourceTree = "<group>";
+		};
+		A180AC471FE3CC260029CDB1 /* TipulatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A180AC481FE3CC260029CDB1 /* TipulatorUITests.swift */,
+				A180AC4A1FE3CC260029CDB1 /* Info.plist */,
+			);
+			path = TipulatorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A180AC241FE3CC250029CDB1 /* Tipulator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A180AC4D1FE3CC260029CDB1 /* Build configuration list for PBXNativeTarget "Tipulator" */;
+			buildPhases = (
+				A180AC211FE3CC250029CDB1 /* Sources */,
+				A180AC221FE3CC250029CDB1 /* Frameworks */,
+				A180AC231FE3CC250029CDB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tipulator;
+			productName = Tipulator;
+			productReference = A180AC251FE3CC250029CDB1 /* Tipulator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A180AC381FE3CC260029CDB1 /* TipulatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A180AC501FE3CC260029CDB1 /* Build configuration list for PBXNativeTarget "TipulatorTests" */;
+			buildPhases = (
+				A180AC351FE3CC260029CDB1 /* Sources */,
+				A180AC361FE3CC260029CDB1 /* Frameworks */,
+				A180AC371FE3CC260029CDB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A180AC3B1FE3CC260029CDB1 /* PBXTargetDependency */,
+			);
+			name = TipulatorTests;
+			productName = TipulatorTests;
+			productReference = A180AC391FE3CC260029CDB1 /* TipulatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A180AC431FE3CC260029CDB1 /* TipulatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A180AC531FE3CC260029CDB1 /* Build configuration list for PBXNativeTarget "TipulatorUITests" */;
+			buildPhases = (
+				A180AC401FE3CC260029CDB1 /* Sources */,
+				A180AC411FE3CC260029CDB1 /* Frameworks */,
+				A180AC421FE3CC260029CDB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A180AC461FE3CC260029CDB1 /* PBXTargetDependency */,
+			);
+			name = TipulatorUITests;
+			productName = TipulatorUITests;
+			productReference = A180AC441FE3CC260029CDB1 /* TipulatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A180AC1D1FE3CC250029CDB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Miguel Ugalde";
+				TargetAttributes = {
+					A180AC241FE3CC250029CDB1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					A180AC381FE3CC260029CDB1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A180AC241FE3CC250029CDB1;
+					};
+					A180AC431FE3CC260029CDB1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A180AC241FE3CC250029CDB1;
+					};
+				};
+			};
+			buildConfigurationList = A180AC201FE3CC250029CDB1 /* Build configuration list for PBXProject "Tipulator" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A180AC1C1FE3CC250029CDB1;
+			productRefGroup = A180AC261FE3CC250029CDB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A180AC241FE3CC250029CDB1 /* Tipulator */,
+				A180AC381FE3CC260029CDB1 /* TipulatorTests */,
+				A180AC431FE3CC260029CDB1 /* TipulatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A180AC231FE3CC250029CDB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A180AC331FE3CC250029CDB1 /* LaunchScreen.storyboard in Resources */,
+				A180AC301FE3CC250029CDB1 /* Assets.xcassets in Resources */,
+				A180AC2E1FE3CC250029CDB1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A180AC371FE3CC260029CDB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A180AC421FE3CC260029CDB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A180AC211FE3CC250029CDB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A180AC2B1FE3CC250029CDB1 /* ViewController.swift in Sources */,
+				A180AC291FE3CC250029CDB1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A180AC351FE3CC260029CDB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A180AC3E1FE3CC260029CDB1 /* TipulatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A180AC401FE3CC260029CDB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A180AC491FE3CC260029CDB1 /* TipulatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A180AC3B1FE3CC260029CDB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A180AC241FE3CC250029CDB1 /* Tipulator */;
+			targetProxy = A180AC3A1FE3CC260029CDB1 /* PBXContainerItemProxy */;
+		};
+		A180AC461FE3CC260029CDB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A180AC241FE3CC250029CDB1 /* Tipulator */;
+			targetProxy = A180AC451FE3CC260029CDB1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A180AC2C1FE3CC250029CDB1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A180AC2D1FE3CC250029CDB1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A180AC311FE3CC250029CDB1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A180AC321FE3CC250029CDB1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A180AC4B1FE3CC260029CDB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A180AC4C1FE3CC260029CDB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A180AC4E1FE3CC260029CDB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Tipulator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = migugalde.Tipulator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A180AC4F1FE3CC260029CDB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Tipulator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = migugalde.Tipulator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A180AC511FE3CC260029CDB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TipulatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = migugalde.TipulatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tipulator.app/Tipulator";
+			};
+			name = Debug;
+		};
+		A180AC521FE3CC260029CDB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TipulatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = migugalde.TipulatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tipulator.app/Tipulator";
+			};
+			name = Release;
+		};
+		A180AC541FE3CC260029CDB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TipulatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = migugalde.TipulatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tipulator;
+			};
+			name = Debug;
+		};
+		A180AC551FE3CC260029CDB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TipulatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = migugalde.TipulatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tipulator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A180AC201FE3CC250029CDB1 /* Build configuration list for PBXProject "Tipulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A180AC4B1FE3CC260029CDB1 /* Debug */,
+				A180AC4C1FE3CC260029CDB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A180AC4D1FE3CC260029CDB1 /* Build configuration list for PBXNativeTarget "Tipulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A180AC4E1FE3CC260029CDB1 /* Debug */,
+				A180AC4F1FE3CC260029CDB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A180AC501FE3CC260029CDB1 /* Build configuration list for PBXNativeTarget "TipulatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A180AC511FE3CC260029CDB1 /* Debug */,
+				A180AC521FE3CC260029CDB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A180AC531FE3CC260029CDB1 /* Build configuration list for PBXNativeTarget "TipulatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A180AC541FE3CC260029CDB1 /* Debug */,
+				A180AC551FE3CC260029CDB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A180AC1D1FE3CC250029CDB1 /* Project object */;
+}

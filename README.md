@@ -1,4 +1,4 @@
-# Pre-work - Miguel Ugalde
+# Pre-work - *Miguel Ugalde*
 
 Tipulator is a tip calculator application for iOS.
 

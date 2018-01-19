@@ -4,7 +4,7 @@ Tipulator is a tip calculator application for iOS.
 
 Submitted by: *Miguel Ugalde*
 
-Time spent: *1.5* hours spent in total
+Time spent: *7* hours spent in total
 
 ## User Stories
 
@@ -13,7 +13,7 @@ The following **required** functionality is complete:
 * [X] User can enter a bill amount, choose a tip percentage, and see the tip and total values.
 
 The following **optional** features are implemented:
-* [ ] Settings page to change the default tip percentage.
+* [X] Settings page to change the default tip percentage.
 * [ ] UI animations
 * [ ] Remembering the bill amount across app restarts (if <10mins)
 * [ ] Using locale-specific currency and currency thousands separators.
@@ -21,7 +21,7 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-- [ ] List anything else that you can get done to improve the app functionality!
+- [X] You are also able to change which segmented Control partition is default selected when you open the app
 
 ## Video Walkthrough 
 
